@@ -15,7 +15,7 @@ class Parquear(Usuario):
 
 
     def __repr__(self):
-        return f"Nombre: {self.Name}, Id: {Usuario.getId(self)}, Placa: {Usuario.getPlaca(self)}, Modelo: {self.Car_Model}, Hora entrada: {self.Hora_entrada}, Lugar de parqueo: {self.Lugar_Parqueo + 1} "
+        return f"Nombre: {self.Name}, Id: {Usuario.getId(self)}, Placa: {Usuario.getPlaca(self)}, Modelo: {self.Car_Model}, Hora entrada: {self.Hora_entrada}, Lugar de parqueo: {self.Lugar_Parqueo}"
 
     def SetEspacios_Disponibles(self, Espacios_Disponibles:int):
         self.Espacios_Disponibles = Espacios_Disponibles
